@@ -1,0 +1,14 @@
+/*2016211765 王宇晟 匹配*/
+var num = prompt('Please input a string ', " ");
+
+if (parseInt(num) == num) {
+    if (num % 2 == 0) {
+        document.write("奇数")
+    }
+    else {
+        document.write("偶数")
+    }
+}
+else {
+    document.write("不是整数")
+}
