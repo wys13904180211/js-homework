@@ -1,0 +1,3 @@
+/*2016211765 王宇晟 js helloworld*/
+console.log("Hello world!");
+document.write("Hello world!");
