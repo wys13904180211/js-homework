@@ -1,0 +1,26 @@
+/*2016211765 王宇晟*/
+var num = new Array();
+var i;
+
+
+for (i = 0; ; i++)
+{
+    num[i] = prompt("Input some figures.Until the figure is less than -1000", " ");
+    if (num[i] < -1000) break;
+};
+
+//可以动态分配吗？
+function min(a) {
+    var min = 9999999;
+    var j;
+    for (j = 0; j < a.length - 1; j++)
+    {
+        if (a[j] < min)
+        {
+            min = a[j];
+        };
+    };
+    document.write("Min number=" + min);
+    console.log(min);
+};
+min(num);
