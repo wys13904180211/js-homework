@@ -1,0 +1,16 @@
+/*2016211765 王宇晟 求和*/
+var n = new Array();
+var sum;
+var i;
+
+
+n[0] = 1;
+for (i = 0, sum = 0; ; i++) {
+
+    n[i] = parseInt(prompt("输入数列，0终止", " "));
+    if (n[i] == 0) break;
+    sum = sum + n[i];
+    parseInt('sum');
+};
+document.write(sum);
+console.log(sum);
